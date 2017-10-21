@@ -18,15 +18,16 @@ purpose AFF4 library.
 2. Reading striped ZipFile volumes.
 2. Reading AFF4 Image streams using the deflate or snappy compressor.
 3. Reading RDF metadata using both YAML and Turtle.
+4. Verification of linear and block hashed images.
+5. Writing ZipFile style volumes.
 
 What is not yet supported:
 
-1. Writing
-2. Encrypted AFF4 volumes.
-3. Persistent data store.
-4. HTTP backed streams.
-5. Support for signed statements or Bill of Materials.
-6. Logical file acquisition.
+1. Encrypted AFF4 volumes.
+2. Persistent data store.
+3. HTTP backed streams.
+4. Support for signed statements or Bill of Materials.
+5. Logical file acquisition.
 
 # Notice
 
