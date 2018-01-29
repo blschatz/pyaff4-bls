@@ -13,7 +13,7 @@ def raw_versions():
     return json.loads("""
 {
     "rc": "0",
-    "post": "3",
+    "post": "7",
     "version": "0.26"
 }
 """)
