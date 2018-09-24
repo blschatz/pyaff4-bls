@@ -21,13 +21,15 @@ purpose AFF4 library.
 4. Verification of linear and block hashed images.
 5. Writing ZipFile style volumes.
 
-What is not yet supported:
+## What is in progress
+1. Logical file acquisition.
+
+## What is not yet supported:
 
 1. Encrypted AFF4 volumes.
 2. Persistent data store.
 3. HTTP backed streams.
 4. Support for signed statements or Bill of Materials.
-5. Logical file acquisition.
 
 # Notice
 
