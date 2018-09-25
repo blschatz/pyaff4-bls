@@ -292,7 +292,7 @@ class MemoryDataStore(object):
         g.bind("aff4", rdflib.Namespace(self.lexicon.base))
         for urn, items in self.store.items():
             urn = rdflib.URIRef(utils.SmartUnicode(urn))
-            type = items.get(utils.SmartStr(lexicon.AFF4_TYPE))
+            type = items.get(utils.SmartUnicode(lexicon.AFF4_TYPE))
             if type is None:
                 continue
 
@@ -444,7 +444,7 @@ class MemoryDataStore(object):
 
 
     def QueryPredicateObject(self, predicate, object):
-        predicate = utils.SmartStr(predicate)
+        predicate = utils.SmartUnicode(predicate)
         for subject, data in list(self.store.items()):
             for pred, value in list(data.items()):
                 if pred == predicate:
